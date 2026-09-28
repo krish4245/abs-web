@@ -1539,48 +1539,37 @@ section {
 .frameworks-section {
   background: linear-gradient(180deg, 
     #ffffff 0%, 
-    #eff6ff 3%, 
-    #bfdbfe 8%, 
-    #3b82f6 16%, 
-    #0c1b52 26%, 
-    #060097 40%, 
-    #060097 60%, 
-    #0c1b52 74%, 
-    #3b82f6 84%, 
-    #bfdbfe 92%, 
-    #eff6ff 97%, 
+    #eff6ff 1%, 
+    #bfdbfe 2.5%, 
+    #3b82f6 5%, 
+    #0c1b52 7.5%, 
+    #060097 10%, 
+    #060097 90%, 
+    #0c1b52 92.5%, 
+    #3b82f6 95%, 
+    #bfdbfe 97.5%, 
+    #eff6ff 99%, 
     #ffffff 100%
   );
   color: #ffffff;
   position: relative;
-  padding: 140px 0;
+  padding: 160px 0 150px;
   overflow: hidden;
   border-top: none;
   border-bottom: none;
 }
 
-.frameworks-section::before {
-  content: '';
+.frameworks-ambient-glow {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 180px;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.4) 30%, transparent 100%);
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.22) 0%, rgba(6, 0, 151, 0) 70%);
+  filter: blur(90px);
   pointer-events: none;
-  z-index: 2;
-}
-
-.frameworks-section::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 180px;
-  background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0.4) 30%, transparent 100%);
-  pointer-events: none;
-  z-index: 2;
+  z-index: 1;
 }
 
 .frameworks-section .container {
