@@ -1475,9 +1475,9 @@ section {
    =================================================================== */
 .why-choose-section {
   background: #ffffff;
-  padding: 90px 0 50px;
-  border-top: none;
-  border-bottom: none;
+  padding: 90px 0;
+  border-top: 1px solid rgba(6, 0, 151, 0.06);
+  border-bottom: 1px solid rgba(6, 0, 151, 0.06);
 }
 
 .why-choose-header {
@@ -1537,44 +1537,10 @@ section {
    7. PROPRIETARY FRAMEWORKS — ROYAL SAPPHIRE LIQUID SECTION
    =================================================================== */
 .frameworks-section {
-  background: linear-gradient(180deg, 
-    #ffffff 0%, 
-    #eff6ff 1%, 
-    #bfdbfe 2.5%, 
-    #3b82f6 5%, 
-    #0c1b52 7.5%, 
-    #060097 10%, 
-    #060097 90%, 
-    #0c1b52 92.5%, 
-    #3b82f6 95%, 
-    #bfdbfe 97.5%, 
-    #eff6ff 99%, 
-    #ffffff 100%
-  );
+  background: linear-gradient(170deg, #060097 0%, #0c1538 50%, #111e48 100%);
   color: #ffffff;
   position: relative;
-  padding: 160px 0 150px;
-  overflow: hidden;
-  border-top: none;
-  border-bottom: none;
-}
-
-.frameworks-ambient-glow {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 900px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.22) 0%, rgba(6, 0, 151, 0) 70%);
-  filter: blur(90px);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.frameworks-section .container {
-  position: relative;
-  z-index: 5;
+  padding: 110px 0;
 }
 
 .frameworks-header {
@@ -1934,7 +1900,7 @@ section {
 .case-studies-section {
   background: #ffffff;
   padding: 100px 0;
-  border-top: none;
+  border-top: 1px solid rgba(6, 0, 151, 0.06);
 }
 
 .case-studies-header {
@@ -3035,37 +3001,9 @@ section {
    15. FOOTER — DEEP ROYAL NAVY
    =================================================================== */
 .site-footer {
-  position: relative;
-  background: linear-gradient(180deg, 
-    #ffffff 0%, 
-    #eff6ff 4%, 
-    #bfdbfe 10%, 
-    #2563eb 20%, 
-    #060097 38%, 
-    #040068 70%, 
-    #020038 100%
-  );
+  background: #060097;
   color: #ffffff;
-  padding: 130px 0 36px;
-  overflow: hidden;
-  border-top: none;
-}
-
-.site-footer::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 160px;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.4) 30%, transparent 100%);
-  pointer-events: none;
-  z-index: 2;
-}
-
-.site-footer .container {
-  position: relative;
-  z-index: 5;
+  padding: 80px 0 36px;
 }
 
 .footer-top-grid {
