@@ -115,7 +115,7 @@ p { max-width: 62ch; color: var(--muted); }
 .fw .panel p { max-width: 450px; font-size: 14px; }
 
 /* Client work */
-.work { background: linear-gradient(115deg, #101c3b 0%, #17285e 62%, #263b9d 100%); color: var(--white); }
+.work { background: linear-gradient(180deg, transparent 0, #17285e 54px, #101c3b 116px, #17285e calc(100% - 90px), rgba(16, 28, 59, 0) 100%); color: var(--white); }
 .work-heading { display: flex; align-items: end; justify-content: space-between; gap: 50px; margin-bottom: 58px; }
 .work-heading h2 { font-size: 52px; }
 .work-heading .section-kicker { color: var(--citrus); }
@@ -178,6 +178,7 @@ p { max-width: 62ch; color: var(--muted); }
 @media (max-width: 760px) {
   .wrap { width: min(100% - 40px, 580px); }
   section { padding: 78px 0; }
+  .work { background: linear-gradient(180deg, transparent 0, #17285e 36px, #101c3b 78px, #17285e calc(100% - 64px), rgba(16, 28, 59, 0) 100%); }
   h2 { font-size: 42px; }
   .nav-wrap { height: 68px; }
   .menu-toggle { display: grid; width: 42px; height: 42px; align-content: center; justify-items: center; gap: 6px; margin-left: auto; border: 1px solid var(--line); background: transparent; }
